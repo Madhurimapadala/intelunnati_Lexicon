@@ -78,7 +78,7 @@ module Figo_fsm (
   always @(state) begin
     case(state)
 	 ROOM0:current_location=ROOM0;
-    ROOM1:current_location=ROOM1;
+         ROOM1:current_location=ROOM1;
 	 ROOM2:current_location=ROOM2;
 	 ROOM3:current_location=ROOM3;
 	 ROOM4:current_location=ROOM4;
